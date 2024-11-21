@@ -5,7 +5,7 @@ info:
     This is the OpenAPI 3.0 specification describing the containers used
     for transfer of Submission Information Packages (SIP) to a remote 
     io-server in the context of the dcm in the lzvnrw-project.
-  version: 2.1.0
+  version: 2.1.1
 servers:
   - url: 'http://localhost:8080/'
 externalDocs:

@@ -2,10 +2,11 @@ import os
 from setuptools import setup
 
 setup(
-    version="2.1.0",
+    version="2.1.1",
     name="dcm-transfer-module-api",
-    description="api for transfer-module-containers",
+    description="specification of the DCM Transfer Module API",
     author="LZV.nrw",
+    license="MIT",
     install_requires=[
     ],
     packages=[
