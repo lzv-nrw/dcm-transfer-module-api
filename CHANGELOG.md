@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.2.0] - 2025-08-20
+
+### Added
+
+- added optional submission token
+
 ## [2.1.1] - 2024-11-21
 
 ### Changed

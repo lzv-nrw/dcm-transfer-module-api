@@ -2,7 +2,7 @@ import os
 from setuptools import setup
 
 setup(
-    version="2.1.1",
+    version="2.2.0",
     name="dcm-transfer-module-api",
     description="specification of the DCM Transfer Module API",
     author="LZV.nrw",

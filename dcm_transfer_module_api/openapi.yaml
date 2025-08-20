@@ -5,7 +5,7 @@ info:
     This is the OpenAPI 3.0 specification describing the containers used
     for transfer of Submission Information Packages (SIP) to a remote 
     io-server in the context of the dcm in the lzvnrw-project.
-  version: 2.1.1
+  version: 2.2.0
 servers:
   - url: 'http://localhost:8080/'
 externalDocs:
@@ -116,6 +116,13 @@ paths:
                       $ref: '#/components/schemas/Target'
                   required:
                     - target
+                token:
+                  type: string
+                  description:
+                    idempotency identifier; if submitted previously, returns
+                    the associated job token; otherwise uses this value as
+                    new token's value
+                  example: 37ee72d6-80ab-4dcd-a68d-f8d32766c80d
                 callbackUrl:
                   $ref: '#/components/schemas/CallbackUrl'
               required:
